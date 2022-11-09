@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+main {
+  margin: 0;
+}
+
+header {
+  background-color: #ff8c00;
+  text-align: left;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+/*creates the frame work for a nav bar at the top of the page */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ccc;
+  color: #111;
+}
+
+.topnav a.active {
+  background-color: #f2f2f2;
+  color: #111;
+}
+
+div.a {
+  text-align: center;
+}
+
+div.land-ack {
+  background-color: darkorange;
+  padding: 25px 55px;
+}
+
+#treaty-map {
+  float: left;
+}
+#Mainheader {
+  text-align: center;
+}
+
+#treaty-map {
+  border: 5px solid #555;
+  float: right;
+  margin-bottom: 30px;
+}
+
+#questions {
+  display: inline-block;
+  width: 70%;
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+  font-size: medium;
+}
+
+div.youtube-videos {
+  clear: right;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+}
