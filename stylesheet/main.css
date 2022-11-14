@@ -1,10 +1,12 @@
+/*gives no margin space in the body tags*/
 body {
   margin: 0;
 }
+/*gives no margin space in the main tags*/
 main {
   margin: 0;
 }
-
+/*moves the treaty 1 logo to the left screen and gives it a dark orange background*/
 header {
   background-color: #ff8c00;
   text-align: left;
@@ -37,38 +39,44 @@ header {
   color: #111;
 }
 
-div.a {
-  text-align: center;
-}
-
+/*gives the land acknowedgement a orange background and changes the font tahoma if not tahoma then sans-serif*/
 div.land-ack {
   background-color: darkorange;
   padding: 25px 55px;
+  font-family: Tahoma, sans-serif;
 }
-
-#treaty-map {
-  float: left;
-}
+/*moves the main header or the <h1> to the center of the screen*/
 #Mainheader {
   text-align: center;
 }
-
+/* adds a border around the main image and moves it to the right side of the screen*/
 #treaty-map {
   border: 5px solid #555;
   float: right;
   margin-bottom: 30px;
 }
-
+/*moves the infomation to the left side of the screen and changes the font to tahoma if not tahoma then sans-serif*/
 #questions {
   display: inline-block;
-  width: 70%;
+  width: 40%;
   margin: 0;
   font-family: Tahoma, sans-serif;
   font-size: medium;
 }
-
+/*moves the youtube iframe to the right side of the screen*/
 div.youtube-videos {
   clear: right;
-  text-align: center;
+  text-align: left;
   font-family: Tahoma, sans-serif;
+}
+
+div.youtube-videos img {
+  float: right;
+}
+
+/*designs a footer at the bottom of my webpage*/
+footer {
+  background-color: darkorange;
+
+  font-size: 17px;
 }

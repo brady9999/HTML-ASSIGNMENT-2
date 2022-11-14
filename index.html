@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylesheet/main.css" />
     <title>Learn About Treaty 1 Territories</title>
+    <!--adds an image to the title bar using a link tag-->
     <link
       rel="shortcut icon"
       href="/images/title-bar-image.png"
@@ -15,6 +16,7 @@
     <style></style>
   </head>
   <body>
+    <!--adds the treaty 1 logo to the top left of the heading -->
     <header>
       <img
         src="/images/treaty-1-img.jfif.png "
@@ -23,7 +25,7 @@
         width="300"
       />
     </header>
-
+    <!--creates a navagation bar underneath the header using CSS (it doesnt take you anywhere when you click the buttons)-->
     <div class="topnav">
       <a class="active" href="#">Home</a>
       <a href="#">Anishinaabeg</a>
@@ -33,7 +35,7 @@
       <a href="#">Métis</a>
       <a href="#">Inuit</a>
     </div>
-
+    <!--used to add the main image that seperates the headder from the main-->
     <div class="a">
       <img
         class="a"
@@ -45,6 +47,7 @@
     </div>
 
     <main>
+      <!--adds the treaty 1 land acknowledgement to my website -->
       <div class="land-ack">
         <h1>Land Acknowledgement</h1>
         <p>
@@ -59,8 +62,10 @@
           spirit of truth, reconciliation and collaboration.
         </p>
       </div>
+      <!--header above the infomation-->
       <h2 id="Mainheader">Treaty 1</h2>
-
+      <!--puts all the infomation in a group on
+       the left side of the webpage using an section tag-->
       <section id="questions">
         <h3>First nation communities in Treaty 1</h3>
         <p>list of communities</p>
@@ -84,6 +89,8 @@
           treaties. Treaty one was signed on August 3, 1871.
         </p>
       </section>
+      <!--adds the treaty map to the right side of the webpages
+       using an span tag to put the image next to the text-->
       <span id="treaty-map">
         <img
           src="/images/treaty map.png"
@@ -94,8 +101,10 @@
       </span>
       <br />
       <br />
+      <!--adds a you tube video to the right side of the 
+      webpage under the treaty maps using an iframe tag-->
       <div class="youtube-videos">
-        <h3>Youtube videos about treaty 1</h3>
+        <h4>Youtube videos about treaty 1</h4>
         <iframe
           width="560"
           height="315"
@@ -106,9 +115,26 @@
           allow="encrypted-media; picture-in-picture"
           allowfullscreen
         ></iframe>
+        <img
+          src="/images/treaty-1-flag.png"
+          alt="treaty 1 flag"
+          height="300"
+          width="500"
+        />
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <!-- adds the sourses of the website to the footer -->
+      <p>Sources</p>
+      <a
+        href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2"
+        >Canadian encyclopedia</a
+      >
+      <br />
+      <a
+        href="https://www.winnipegvitalsigns.org/vital-information/treaty-1/#:~:text=There%20are%20seven%20First%20Nations%20that%20were%20part,the%20traditional%20names%20of%20these%20First%20Nations%20%29."
+        >Winnipeg vital signs</a
+      >
+    </footer>
   </body>
 </html>
-<!--https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2-->
